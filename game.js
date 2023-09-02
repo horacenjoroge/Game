@@ -1,6 +1,6 @@
 function getComputerChoice () {;
- const words = ["Rock","paper","scissors"]
- const randomIndex=math.floor(math.random()*words.lenghth
+ const words = ["Rock","Paper","Scissors"]
+ const randomIndex=Math.floor(Math.random()*words.length
  );
 return words[randomIndex];
 }
