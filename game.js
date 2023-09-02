@@ -8,6 +8,7 @@ const randomWord = getComputerChoice();
 console.log (randomWord);
 function playRound(playerSelection,computerselection){
     const playerSelection =prompt("choose rock,paper or scissors").toLowerCase();
+    const computerSelection = getComputerChoice();
     if (playerSelection === "rock" || playerSelection === "paper" || playerSelection === "scissors") {
         console.log("Computer chose: " + computerSelection);
         console.log("You chose: " + playerSelection);
