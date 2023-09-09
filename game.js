@@ -63,3 +63,8 @@ function game() {
 }
 
 game();
+
+// create a button
+const button = document.createElement('button');
+ button.id = "btn";
+ button.textContent="rock";
