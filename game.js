@@ -70,3 +70,5 @@ const button = document.createElement('button');
  button.textContent="rock";
  //event listener
  button.addEventListener("click",playRound);
+ //insert button into DOM as last child of body element
+ document.body.appendChild(button);
