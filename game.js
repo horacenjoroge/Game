@@ -68,3 +68,7 @@ game();
 const button = document.createElement('button');
  button.id = "btn";
  button.textContent="rock";
+ //event listener
+ button.addEventListener("click",playRound(){
+    console.log("you choose rock!");
+ });
